@@ -19,6 +19,5 @@ def last_element(array)
 end
 
 def first_element_with_array_methods(array)
-  temp_array = array.pop
-  return temp_array
+  return array.first
 end
